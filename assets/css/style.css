@@ -1,0 +1,78 @@
+/* assets/css/style.css */
+#scf-contact-form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+#scf-contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+#scf-contact-form input, #scf-contact-form textarea {
+    width: 100%;
+    padding: 12px 0px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+#scf-contact-form input:focus, #scf-contact-form textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+#scf-contact-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+#scf-contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#scf-contact-form input[type="submit"]:hover {
+    background-color: #3e8e41;
+    box-shadow: 0 3px 8px rgba(62, 142, 65, 0.3);
+}
+
+#scf-contact-form input[type="submit"]:active {
+    background-color: #2f6f31;
+    box-shadow: none;
+}
+
+/* Add responsiveness */
+@media (max-width: 500px) {
+    #scf-contact-form {
+        padding: 15px;
+    }
+
+    #scf-contact-form input, #scf-contact-form textarea {
+        font-size: 14px;
+    }
+
+    #scf-contact-form input[type="submit"] {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+}
