@@ -18,7 +18,7 @@
 }
 
 #scf-contact-form input, #scf-contact-form textarea {
-    width: 94%;
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
